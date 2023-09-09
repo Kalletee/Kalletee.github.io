@@ -166,7 +166,7 @@ body {
     align-items: flex-start;
     padding-left: 20px;
     /*display: inline-block;*/
-    height: 400px;
+    min-height: 400px;
     max-width: 70%;
     /*border: 1px solid #466995;*/
     font-family: Rubik, Arial;

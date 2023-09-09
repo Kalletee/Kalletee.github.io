@@ -3,7 +3,7 @@ header {
   background-color: #f1f1f1;
   padding: 20px 10px;
   /*border-bottom: #466995 solid 1px;*/
-  
+  width: 100%;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   margin-bottom: 15px;

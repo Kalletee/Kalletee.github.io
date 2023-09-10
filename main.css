@@ -121,12 +121,15 @@ header a.active {
   background-color: #ddd;
 }
 
+/*
 @media (max-width: 768px)  {
  body {
   margin-left: 0%;
   margin-right: 0%;
  }
-}
+}*/
+
+
 
 body {
   /*background-color: rgba(126, 221, 250, 0.664);*/
@@ -139,6 +142,14 @@ body {
     /*border: #466995 solid 1px;*/
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to right, lightblue , rgb(223, 223, 204));
+    margin-left: 0%;
+    margin-right: 0%;
+  }
 }
 
 /* Image */
@@ -176,6 +187,12 @@ body {
     /*border: 1px solid #466995;*/
     font-family: Rubik, Arial;
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .second {
+    width: 100%;
+  }
 }
 
 
@@ -257,15 +274,47 @@ body {
   margin-bottom: 2px;
 }
 
+@media only screen and (max-width: 600px) {
+  .section2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+}
+
 .education {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
   padding-left: 5px;
   background-color: rgba(245, 245, 220, 0.801);
-  display: flex 2 1 350px;
   height: auto;
   width: 75%;
   align-items: flex-start;
   text-align: center;
   border-radius: 5px;
+  z-index: 2;
+  
+}
+
+@media only screen and (max-width: 600px) {
+  .education {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.koko {
+  display: flex;
+  flex-direction: row;
+}
+
+.amis,
+.amk {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .education h3 {
@@ -273,18 +322,30 @@ body {
 }
 
 .education p {
-  width: 70%;
-  padding-left: 15%;
+  width: 85%;
+  
 }
 
 .linguistic {
-  padding-left: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 2px;
   background-color: bisque;
-  display: flex 1 1 400px;
-  
   width: 25%;
-  margin-left: 2px;
+  margin-left: 5px;
   border-radius: 5px;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .linguistic {
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+  }
 }
 
 .linguistic h3 {

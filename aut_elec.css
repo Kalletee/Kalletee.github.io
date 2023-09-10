@@ -293,3 +293,11 @@ header {
   align-items: flex-start;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: linear-gradient(to right, lightblue , rgb(223, 223, 204));
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

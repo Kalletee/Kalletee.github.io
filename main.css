@@ -63,6 +63,14 @@ header a.active {
   float: center;
 }
 
+@media only screen and (max-width: 600px) {
+    .header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+  }
+
 .dropdown,
 .dropdown2 {
   float: left;
@@ -457,4 +465,12 @@ body {
   .laatikko2 img:hover {
     height: 65px;
     width: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .laatikko1 img,
+    .laatikko2 img {
+    max-height: 25px;
+    width: auto;
+    }
   }

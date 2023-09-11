@@ -199,7 +199,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .second {
-    width: 100%;
+    max-width: 100%;
   }
 }
 
@@ -236,6 +236,13 @@ body {
   background-repeat: no-repeat;
 
 
+}
+
+@media only screen and (max-width: 600px) {
+  .third {
+    width: 100%;
+    background-position: center;
+  }
 }
 
 /*
@@ -472,5 +479,26 @@ body {
     .laatikko2 img {
     max-height: 25px;
     width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    footer {
+    display: flex;
+    justify-content: center;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .footer {
+    height: fit-content;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     }
   }

@@ -302,6 +302,19 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  .javascript {
+  width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .platforms {
+  width: 100%;
+  padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   footer {
   display: flex;
   justify-content: center;

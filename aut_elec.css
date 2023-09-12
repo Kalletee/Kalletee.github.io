@@ -163,7 +163,7 @@ header {
     background-image: url(tia1.JPG), url(tiaHMI.JPG);
     background-position: 15% 8%, 65% 89%;
     background-repeat: no-repeat;
-    background-size: 45% auto, 70% auto;
+    background-size: 70% auto, 70% auto;
     padding: 10px;
     /*border: solid rgb(240, 228, 175)*/
 
@@ -207,7 +207,7 @@ header {
     background-image: url(tamu.jpg), url(ABB.jpg);
     background-position: 10% 45%, 85% 55%;
     background-repeat: no-repeat;
-    background-size: 25% auto, 55% auto;
+    background-size: 20% auto, 50% auto;
     padding: 10px;
     /*border: solid rgb(240, 228, 175)*/
   }

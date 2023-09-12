@@ -163,7 +163,7 @@ header {
     background-image: url(tia1.JPG), url(tiaHMI.JPG);
     background-position: left, right;
     background-repeat: no-repeat;
-    background-size: 45% auto, 70% auto;
+    background-size: 15% 8%, 65% 89%;
     padding: 10px;
     /*border: solid rgb(240, 228, 175)*/
 
@@ -173,7 +173,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(240, 255, 255, 0.904);
+    background-color: rgba(240, 255, 255, 0.77);
     width: 85%;
     border: 1px solid #ddd;
     border-radius: 7px;
@@ -191,6 +191,7 @@ header {
   .text3:hover {
     border: 2px solid #11111167;
     border-radius: 7px;
+    background-color: rgba(240, 255, 255, 0.97);
     
   }
 
@@ -204,9 +205,9 @@ header {
     margin-top: 15px;
     margin-bottom: 15px;
     background-image: url(tamu.jpg), url(ABB.jpg);
-    background-position: 20px, right;
+    background-position: 10% 45%, 85% 55%;
     background-repeat: no-repeat;
-    background-size: 30% auto, 55% auto;
+    background-size: 25% auto, 55% auto;
     padding: 10px;
     /*border: solid rgb(240, 228, 175)*/
   }
@@ -215,10 +216,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(240, 255, 255, 0.784);
+    background-color: rgba(240, 255, 255, 0.77);
     width: 85%;
     padding-left: 15%;
-    
+    border-radius: 7px;
     font-family: 'Courier New', Courier, monospace;
   }
   
@@ -303,8 +304,23 @@ header {
   .content2,
   .content3 {
     height: auto;
+    background-position: 35% 30%, 55% 89%;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .content2 {
+    background-size: 85% auto, 85% auto;
+    background-position: 35% 30%, 55% 89%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content3 {
+    background-position: 92% 30%, 15% 89%;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   footer {

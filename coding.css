@@ -317,8 +317,14 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  .buttons {
+  height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
   .platforms {
-  width: 100%;
+  max-width: 100%;
   padding-left: 15px;
   }
 }

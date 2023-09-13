@@ -109,7 +109,7 @@ header a:hover {
 body {
   /*background-color: rgba(126, 221, 250, 0.829);*/
   /*background-color: burlywood;*/
-  background-image: linear-gradient(to right, rgba(222, 184, 135, 0.897), rgb(223, 223, 204));
+  background-image: linear-gradient(to right, lightblue, rgb(223, 223, 204));
     /*font-family: Arial, Helvetica, sans-serif;*/
     font-family: Rubik, Arial;
     margin-left: 15%;
@@ -145,7 +145,7 @@ body {
   flex-wrap: wrap;
   /*justify-content: space-between;*/
   /*background-color: rgba(245, 245, 220, 0.801);*/
-  background-image: linear-gradient(to right, lightblue , rgba(255, 255, 255, 0.9));
+  background-image: linear-gradient(to right, rgba(245, 245, 220, 0.801) , rgba(255, 255, 255, 0.9));
   margin: 1px 0px;
   border-radius: 15px;
 }
